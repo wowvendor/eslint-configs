@@ -1,0 +1,7 @@
+# editor configs
+.vscode/
+.idea/
+
+# static files
+coverage/
+dist/
