@@ -8,3 +8,4 @@
 ## Packages
 
 - [@wowvendor/eslint-config-base](https://www.npmjs.com/package/@wowvendor/eslint-config-base)
+- [@wowvendor/eslint-config-react](https://www.npmjs.com/package/@wowvendor/eslint-config-react)
