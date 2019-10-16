@@ -66,7 +66,6 @@ module.exports = {
 
         "@typescript-eslint/no-namespace": "error",
         "@typescript-eslint/no-explicit-any": "error",
-        "@typescript-eslint/consistent-type-assertions": "error",
         "@typescript-eslint/array-type": ["error", "array-simple"],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/member-ordering": [
