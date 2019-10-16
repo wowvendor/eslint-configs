@@ -126,7 +126,7 @@ module.exports = {
     "prefer-rest-params": "error",
     "no-duplicate-imports": "error",
     "prefer-arrow-callback": "error",
-    "arrow-body-style": ["error", "never"],
+    "arrow-body-style": ["error", "as-needed"],
     "prefer-destructuring": ["error", { object: true, array: false }],
 
     // Imports
