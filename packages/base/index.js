@@ -1,0 +1,142 @@
+module.exports = {
+  env: {
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2019,
+    sourceType: "module",
+  },
+  parser: "babel-eslint",
+  overrides: [
+    {
+      files: ["*.{spec,test}.{js,ts,tsx}", "**/__{mocks,tests}__/**/*.{js,ts,tsx}"],
+      env: {
+        jest: true,
+      },
+      plugins: ["jest"],
+      extends: ["plugin:jest/recommended"],
+    },
+  ],
+  plugins: ["eslint-comments", "import"],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  rules: {
+    // General
+    "no-cond-assign": "error",
+    "no-const-assign": "error",
+    "no-control-regex": "error",
+    "no-debugger": "error",
+    "no-dupe-keys": "error",
+
+    // Best Practices
+    "array-callback-return": "error",
+    curly: "off",
+    complexity: "off",
+    "default-case": "error",
+    "dot-notation": "error",
+    eqeqeq: ["error", "allow-null"],
+    "no-eval": "error",
+    "no-alert": "error",
+    "no-console": "error",
+    "no-else-return": "error",
+    "no-invalid-this": "off",
+    "no-return-await": "error",
+    "no-empty-function": "error",
+    "no-div-regex": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-labels": "error",
+    "no-iterator": "error",
+    "no-lone-blocks": "error",
+    "no-new": "error",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-octal-escape": "error",
+    "no-proto": "error",
+    "no-return-assign": "error",
+    "no-script-url": "error",
+    "no-self-compare": "error",
+    "no-sequences": "error",
+    "no-void": "error",
+    "no-with": "error",
+    radix: "error",
+    "require-await": "error",
+    yoda: "error",
+
+    // Variables
+    "no-label-var": "error",
+    "no-shadow": "error",
+    "no-undef-init": "error",
+    "no-use-before-define": [
+      "error",
+      {
+        classes: true,
+        functions: false,
+        variables: false,
+      },
+    ],
+
+    // Node.js
+    "handle-callback-err": "error",
+    "no-mixed-requires": "error",
+    "no-new-require": "error",
+    "no-path-concat": "error",
+    "no-restricted-modules": "error",
+
+    // ESLint CommentsPreview Plugin
+    "eslint-comments/no-aggregating-enable": "error",
+    "eslint-comments/no-unlimited-disable": "error",
+    "eslint-comments/no-unused-disable": "error",
+    "eslint-comments/no-unused-enable": "error",
+
+    // Stylistic Issues
+    "consistent-this": "error",
+    "max-lines": [
+      "error",
+      {
+        max: 250,
+        skipComments: true,
+        skipBlankLines: true,
+      },
+    ],
+    "no-array-constructor": "error",
+    "no-empty-character-class": "error",
+    "no-new-object": "error",
+    "padding-line-between-statements": [
+      "error",
+      { blankLine: "always", prev: "*", next: "return" },
+      { blankLine: "always", prev: "*", next: "block-like" },
+      { blankLine: "always", prev: "*", next: ["const", "let", "var"] },
+      { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
+      { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"] },
+    ],
+
+    // Legacy
+    "no-bitwise": "error",
+
+    // Possible Error
+    "no-await-in-loop": "error",
+    "no-template-curly-in-string": "error",
+    "no-unexpected-multiline": "error",
+
+    // ECMAScript 6
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "prefer-rest-params": "error",
+    "no-duplicate-imports": "error",
+    "prefer-arrow-callback": "error",
+    "arrow-body-style": ["error", "never"],
+    "prefer-destructuring": ["error", { object: true, array: false }],
+
+    // Imports
+    "import/no-cycle": "error",
+    "import/no-self-import": "error",
+    "import/no-dynamic-require": "off",
+    "import/no-default-export": "error",
+    "import/prefer-default-export": "off",
+    "import/newline-after-import": "error",
+    "import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+  },
+  reportUnusedDisableDirectives: true,
+};
