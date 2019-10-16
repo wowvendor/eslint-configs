@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@wowvendor/commitlint-config'],
+  extends: ["@wowvendor/commitlint-config"],
 };
