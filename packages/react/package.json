@@ -1,6 +1,6 @@
 {
   "name": "@wowvendor/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React config for ESLint used in WoWVendor's projects",
   "main": "index.js",
   "files": [
@@ -34,7 +34,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.4.0",
     "@typescript-eslint/parser": "^2.4.0",
-    "@wowvendor/eslint-config-base": "^1.1.0",
+    "@wowvendor/eslint-config-base": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2"
