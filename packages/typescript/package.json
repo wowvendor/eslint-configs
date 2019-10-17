@@ -1,0 +1,40 @@
+{
+  "name": "@wowvendor/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "Typescript config for ESLint used in WoWVendor's projects",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": "weyheyhey <iweyheyhey@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wowvendor/eslint-configs.git"
+  },
+  "keywords": [
+    "style guide",
+    "javascript",
+    "typescript",
+    "eslint",
+    "config",
+    "es2016",
+    "es2015",
+    "react",
+    "rules",
+    "lint",
+    "es6"
+  ],
+  "peerDependencies": {
+    "eslint": ">=5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "@wowvendor/eslint-config-base": "^1.0.1"
+  }
+}

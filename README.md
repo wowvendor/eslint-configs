@@ -9,3 +9,4 @@
 
 - [@wowvendor/eslint-config-base](https://www.npmjs.com/package/@wowvendor/eslint-config-base)
 - [@wowvendor/eslint-config-react](https://www.npmjs.com/package/@wowvendor/eslint-config-react)
+- [@wowvendor/eslint-config-typescript](https://www.npmjs.com/package/@wowvendor/eslint-config-typescript)
