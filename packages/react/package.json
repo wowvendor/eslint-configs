@@ -6,6 +6,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "eslint . -c ./index.js"
+  },
   "author": "weyheyhey <iweyheyhey@gmail.com>",
   "license": "MIT",
   "publishConfig": {
@@ -37,8 +40,5 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2"
-  },
-  "devDependencies": {
-    "react": "^16.10.2"
   }
 }
