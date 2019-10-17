@@ -1,9 +1,4 @@
 module.exports = {
-  env: {
-    node: true,
-    browser: true,
-    commonjs: true,
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
