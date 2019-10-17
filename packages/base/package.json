@@ -28,7 +28,7 @@
     "es6"
   ],
   "peerDependencies": {
-    "eslint": ">=5",
+    "eslint": ">=6.4",
     "prettier": ">=1.15.0"
   },
   "dependencies": {
