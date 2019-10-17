@@ -46,10 +46,7 @@ module.exports = {
 
 ### Plugins / Modules
 
-- babel-eslint
-- @typescript-eslint/parser
-- @typescript-eslint/eslint-plugin
 - eslint-plugin-react
 - eslint-plugin-jsx-a11y
 - eslint-plugin-react-hooks
-- @wowvendor/eslint-config-base
+- @wowvendor/eslint-config-typescript
