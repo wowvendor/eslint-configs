@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "run-s test:*",
+    "test:code": "jest",
     "test:lint": "eslint .",
     "postinstall": "npm run bootstrap",
     "release": "lerna version --conventional-commits",
@@ -30,6 +31,7 @@
     "eslint": "^6.5.1",
     "glob": "^7.1.4",
     "husky": "^3.0.9",
+    "jest": "^24.9.0",
     "lerna": "^3.18.1",
     "lint-staged": "^9.4.2",
     "npm-run-all": "^4.1.5",

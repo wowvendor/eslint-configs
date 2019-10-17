@@ -12,6 +12,7 @@ module.exports = {
       files: ["*.{spec,test}.{js,ts,tsx}", "**/__{mocks,tests}__/**/*.{js,ts,tsx}"],
       env: {
         jest: true,
+        "jest/globals": true,
       },
       plugins: ["jest"],
       extends: ["plugin:jest/recommended"],
