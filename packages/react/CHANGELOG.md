@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@1.0.3...@wowvendor/eslint-config-react@1.1.0) (2019-10-17)
+
+### Features
+
+- **base:** moved all env values to base config ([05d9f4f](https://github.com/wowvendor/eslint-configs/commit/05d9f4faeef149ec85701a68503901b26c2dff74))
+
 ## [1.0.3](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@1.0.1...@wowvendor/eslint-config-react@1.0.3) (2019-10-17)
 
 ### Bug Fixes

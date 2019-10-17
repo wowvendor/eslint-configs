@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@1.1.0...@wowvendor/eslint-config-typescript@1.1.1) (2019-10-17)
+
+### Bug Fixes
+
+- **typescript:** invalid array-type rule value ([7d6d00c](https://github.com/wowvendor/eslint-configs/commit/7d6d00c5b1ac947c69f1fb790e21a71a36c1c884))
+
 # 1.1.0 (2019-10-17)
 
 ### Bug Fixes
