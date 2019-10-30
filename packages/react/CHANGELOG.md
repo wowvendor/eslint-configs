@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@1.1.0...@wowvendor/eslint-config-react@2.0.0) (2019-10-30)
+
+### Features
+
+- **react:** settings are inherited from the base config ([1f00d27](https://github.com/wowvendor/eslint-configs/commit/1f00d27d9cea06b5bcfa0273eaa1352f3a47d2c5))
+
+### BREAKING CHANGES
+
+- **react:** react with typescript requires a separate config
+
 # [1.1.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@1.0.3...@wowvendor/eslint-config-react@1.1.0) (2019-10-17)
 
 ### Features
