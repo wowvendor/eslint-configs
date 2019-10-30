@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   plugins: ["jsx-a11y", "react", "react-hooks"],
-  extends: ["@wowvendor/eslint-config-typescript", "plugin:jsx-a11y/recommended", "plugin:react/recommended"],
+  extends: ["@wowvendor/eslint-config-base", "plugin:jsx-a11y/recommended", "plugin:react/recommended"],
   rules: {
     // Hooks
     "react-hooks/rules-of-hooks": "error",

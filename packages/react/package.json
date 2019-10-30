@@ -22,7 +22,6 @@
   "keywords": [
     "style guide",
     "javascript",
-    "typescript",
     "eslint",
     "config",
     "es2016",
@@ -36,7 +35,7 @@
     "eslint": ">=6.4"
   },
   "dependencies": {
-    "@wowvendor/eslint-config-typescript": "^1.1.1",
+    "@wowvendor/eslint-config-base": "^1.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2"

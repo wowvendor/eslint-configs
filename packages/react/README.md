@@ -49,4 +49,4 @@ module.exports = {
 - eslint-plugin-react
 - eslint-plugin-jsx-a11y
 - eslint-plugin-react-hooks
-- @wowvendor/eslint-config-typescript
+- @wowvendor/eslint-config-base
