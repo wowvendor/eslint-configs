@@ -1,6 +1,6 @@
 {
   "name": "@wowvendor/eslint-config-base",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Base config for ESLint used in WoWVendor's projects",
   "main": "index.js",
   "files": [

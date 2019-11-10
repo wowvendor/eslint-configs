@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@1.1.1...@wowvendor/eslint-config-typescript@1.2.0) (2019-11-10)
+
+### Features
+
+- add support ts 3.7 ([341aa65](https://github.com/wowvendor/eslint-configs/commit/341aa65ebbe06846d1f8606bc523a97623b14b50))
+
 ## [1.1.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@1.1.0...@wowvendor/eslint-config-typescript@1.1.1) (2019-10-17)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@2.0.0...@wowvendor/eslint-config-react@2.1.0) (2019-11-10)
+
+### Features
+
+- add support ts 3.7 ([341aa65](https://github.com/wowvendor/eslint-configs/commit/341aa65ebbe06846d1f8606bc523a97623b14b50))
+
 # [2.0.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@1.1.0...@wowvendor/eslint-config-react@2.0.0) (2019-10-30)
 
 ### Features
