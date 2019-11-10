@@ -12,7 +12,7 @@ module.exports = {
   parser: "babel-eslint",
   overrides: [
     {
-      files: ["*.{spec,test}.{js,ts,tsx}", "**/__{mocks,tests}__/**/*.{js,ts,tsx}"],
+      files: ["*.{spec,test}.{js,jsx,ts,tsx}", "**/__{mocks,tests}__/**/*.{js,jsx,ts,tsx}"],
       env: {
         jest: true,
         "jest/globals": true,

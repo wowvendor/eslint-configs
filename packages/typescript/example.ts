@@ -10,7 +10,17 @@ export interface SomeStatus {
 interface SomeExtendedStatus<D> extends SomeStatus {
   data: D;
   name: string[];
+  meta: {
+    time?: {
+      min: string;
+      hour: string;
+    };
+  };
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type SomeType = SomeExtendedStatus<unknown> & { year: any };
+
+declare const someExtendedStatus: SomeExtendedStatus<unknown>;
+
+export const minutes = someExtendedStatus.meta.time?.min;
