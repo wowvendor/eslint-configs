@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@1.4.0...@wowvendor/eslint-config-base@1.5.0) (2019-11-13)
+
+### Features
+
+- **base:** enable complexity 6 ([c59f0b5](https://github.com/wowvendor/eslint-configs/commit/c59f0b5660acd79f3e1e23e7f4198bf2005bea27))
+- **base:** rule "import / no-default-export" is disabled ([f633520](https://github.com/wowvendor/eslint-configs/commit/f633520a3f7ec08588c1e5ec5197183d54983ba9))
+
 # [1.4.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@1.3.0...@wowvendor/eslint-config-base@1.4.0) (2019-11-10)
 
 ### Features
