@@ -34,7 +34,7 @@ module.exports = {
     // Best Practices
     "array-callback-return": "error",
     curly: "off",
-    complexity: "off",
+    complexity: ["error", 6],
     "default-case": "error",
     "dot-notation": "error",
     eqeqeq: ["error", "allow-null"],
