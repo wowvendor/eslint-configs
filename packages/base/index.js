@@ -137,7 +137,7 @@ module.exports = {
     "import/no-cycle": "error",
     "import/no-self-import": "error",
     "import/no-dynamic-require": "off",
-    "import/no-default-export": "error",
+    "import/no-default-export": "off",
     "import/prefer-default-export": "off",
     "import/newline-after-import": "error",
     "import/no-useless-path-segments": ["error", { noUselessIndex: true }],
