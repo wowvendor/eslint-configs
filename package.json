@@ -9,7 +9,7 @@
     "postinstall": "npm run bootstrap",
     "prepublishOnly": "lerna exec 'npm test'",
     "release": "lerna version --conventional-commits",
-    "bootstrap": "lerna bootstrap --hoist --ignore-prepublish",
+    "bootstrap": "lerna bootstrap --hoist",
     "publish": "lerna publish from-package"
   },
   "author": "weyheyhey <iweyheyhey@gmail.com>",
