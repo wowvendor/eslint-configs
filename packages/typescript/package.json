@@ -36,8 +36,8 @@
     "eslint": ">=6.6"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.6.1",
-    "@typescript-eslint/parser": "^2.6.1",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
     "@wowvendor/eslint-config-base": "^1.5.0"
   }
 }
