@@ -7,7 +7,7 @@ export function SomeComponent({ age, name }) {
     const { value } = event.currentTarget;
 
     if (name.length > 0) {
-      console.log(newName, value); // eslint-disable-line no-console
+      console.log(newName, value);
     }
 
     setNewName(name);

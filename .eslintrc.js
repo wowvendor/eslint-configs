@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["./packages/base"],
+  extends: ["./packages/base", "./packages/react", "./packages/typescript"],
 };

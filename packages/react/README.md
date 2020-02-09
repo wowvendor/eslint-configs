@@ -7,13 +7,13 @@
 ### [yarn](https://yarnpkg.com)
 
 ```sh
-yarn add eslint @wowvendor/eslint-config-react -D
+yarn add eslint @wowvendor/eslint-config-base @wowvendor/eslint-config-react -D
 ```
 
 ### [npm](https://npmjs.com)
 
 ```sh
-npm i -D eslint @wowvendor/eslint-config-react
+npm i -D eslint @wowvendor/eslint-config-base @wowvendor/eslint-config-react
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm i -D eslint @wowvendor/eslint-config-react
 
 ```json
 {
-  "extends": "@wowvendor/eslint-config-react"
+  "extends": ["@wowvendor/eslint-config-base", "@wowvendor/eslint-config-react"]
 }
 ```
 
@@ -32,7 +32,7 @@ npm i -D eslint @wowvendor/eslint-config-react
 
 ```js
 module.exports = {
-  extends: ["@wowvendor/eslint-config-react"],
+  extends: ["@wowvendor/eslint-config-base", "@wowvendor/eslint-config-react"],
 };
 ```
 
@@ -40,7 +40,7 @@ module.exports = {
 
 ```json
 {
-  "extends": ["@wowvendor/eslint-config-react"]
+  "extends": ["@wowvendor/eslint-config-base", "@wowvendor/eslint-config-react"]
 }
 ```
 
@@ -49,4 +49,3 @@ module.exports = {
 - eslint-plugin-react
 - eslint-plugin-jsx-a11y
 - eslint-plugin-react-hooks
-- @wowvendor/eslint-config-base

@@ -101,5 +101,4 @@ module.exports = {
       },
     },
   ],
-  extends: ["@wowvendor/eslint-config-base"],
 };

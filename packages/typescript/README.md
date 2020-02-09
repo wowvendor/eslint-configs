@@ -7,13 +7,13 @@
 ### [yarn](https://yarnpkg.com)
 
 ```sh
-yarn add eslint @wowvendor/eslint-config-typescript -D
+yarn add eslint @wowvendor/eslint-config-base @wowvendor/eslint-config-typescript -D
 ```
 
 ### [npm](https://npmjs.com)
 
 ```sh
-npm i -D eslint @wowvendor/eslint-config-typescript
+npm i -D eslint @wowvendor/eslint-config-base @wowvendor/eslint-config-typescript
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm i -D eslint @wowvendor/eslint-config-typescript
 
 ```json
 {
-  "extends": "@wowvendor/eslint-config-typescript"
+  "extends": ["@wowvendor/eslint-config-base", "@wowvendor/eslint-config-typescript"]
 }
 ```
 
@@ -32,7 +32,7 @@ npm i -D eslint @wowvendor/eslint-config-typescript
 
 ```js
 module.exports = {
-  extends: ["@wowvendor/eslint-config-typescript"],
+  extends: ["@wowvendor/eslint-config-base", "@wowvendor/eslint-config-typescript"],
 };
 ```
 
@@ -40,12 +40,11 @@ module.exports = {
 
 ```json
 {
-  "extends": ["@wowvendor/eslint-config-typescript"]
+  "extends": ["@wowvendor/eslint-config-base", "@wowvendor/eslint-config-typescript"]
 }
 ```
 
 ### Plugins / Modules
 
-- @wowvendor/eslint-config-base
 - @typescript-eslint/parser
 - @typescript-eslint/eslint-plugin
