@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@1.5.1...@wowvendor/eslint-config-base@2.0.0) (2020-02-09)
+
+### Features
+
+- split into independent configs ([9910a05](https://github.com/wowvendor/eslint-configs/commit/9910a05010983ccc2d07bae849f4766623cf6505))
+
+### BREAKING CHANGES
+
+- all cross dependencies removed
+
 ## [1.5.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@1.5.0...@wowvendor/eslint-config-base@1.5.1) (2020-01-09)
 
 **Note:** Version bump only for package @wowvendor/eslint-config-base
