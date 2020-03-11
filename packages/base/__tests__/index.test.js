@@ -5,7 +5,11 @@ const srcPath = path.resolve(__dirname, "../");
 
 describe("test eslint config", () => {
   it("eslint should pass without errors and no warnings", () => {
-    const input = [path.resolve(srcPath, "index.js"), path.resolve(__dirname, __filename)];
+    const input = [
+      path.resolve(srcPath, "index.js"),
+      path.resolve(srcPath, "example.js"),
+      path.resolve(__dirname, __filename),
+    ];
 
     const output = new eslint.CLIEngine({
       useEslintrc: false,

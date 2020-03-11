@@ -141,5 +141,12 @@ module.exports = {
     "import/prefer-default-export": "off",
     "import/newline-after-import": "error",
     "import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always-and-inside-groups",
+        groups: [["external", "builtin"], "internal", "parent", "sibling", "index"],
+      },
+    ],
   },
 };
