@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@3.0.0...@wowvendor/eslint-config-react@3.1.0) (2020-03-11)
+
+### Features
+
+- **react:** enable react/jsx-curly-brace-presence ([8fe1b61](https://github.com/wowvendor/eslint-configs/commit/8fe1b61d78d60ee4858e426af7ac74ca8d033ae6))
+
 # [3.0.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@2.1.2...@wowvendor/eslint-config-react@3.0.0) (2020-02-09)
 
 ### Features
