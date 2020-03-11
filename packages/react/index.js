@@ -27,6 +27,7 @@ module.exports = {
     "react/jsx-boolean-value": "error",
     "react/no-did-update-set-state": "error",
     "react/no-access-state-in-setstate": "error",
+    "react/jsx-curly-brace-presence": ["error", "never"],
     "react/no-redundant-should-component-update": "error",
     "react/self-closing-comp": ["error", { html: true, component: true }],
     "react/destructuring-assignment": ["error", "always", { ignoreClassFields: true }],

@@ -21,3 +21,15 @@ export function SomeComponent({ age, name }) {
     </div>
   );
 }
+
+// eslint-disable-next-line react/no-multi-comp
+export function SomeAnotherComponent({ age, name }) {
+  return (
+    <div>
+      {/* eslint-disable react/jsx-curly-brace-presence */}
+      <input type="text" value={"value"} />
+      {/* eslint-enable react/jsx-curly-brace-presence */}
+      <input type="text" value="value" />
+    </div>
+  );
+}
