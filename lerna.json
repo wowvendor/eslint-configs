@@ -2,22 +2,12 @@
   "npmClient": "npm",
   "version": "independent",
   "packages": ["packages/*"],
-  "ignoreChanges": [
-    "*.md",
-    "*.txt",
-    "*.yml",
-    "@(!(package)).json",
-    "**/*.test.(ts|tsx|js)",
-    "**/*.stories.(ts|tsx|js)"
-  ],
+  "ignoreChanges": ["*.md", "*.yml", "**/*.test.*", "**/*.stories.*", "@(!(package)).json"],
   "command": {
     "version": {
       "allowBranch": "master",
       "conventionalCommits": true,
       "message": "chore(release): publish"
-    },
-    "publish": {
-      "yes": true
     }
   }
 }
