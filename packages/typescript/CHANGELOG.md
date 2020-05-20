@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@2.0.1...@wowvendor/eslint-config-typescript@2.1.0) (2020-05-20)
+
+
+### Features
+
+* remove prettier formating from configs ([f684c95](https://github.com/wowvendor/eslint-configs/commit/f684c954409cdf67a3022fff9ab37b4a34ccf284))
+
+
+
+
+
 ## [2.0.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@2.0.0...@wowvendor/eslint-config-typescript@2.0.1) (2020-03-11)
 
 **Note:** Version bump only for package @wowvendor/eslint-config-typescript
