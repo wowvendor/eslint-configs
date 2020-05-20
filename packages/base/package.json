@@ -12,12 +12,12 @@
   "author": "weyheyhey <iweyheyhey@gmail.com>",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wowvendor/eslint-configs.git"
+    "url": "https://github.com/wowvendor/eslint-configs.git",
+    "directory": "packages/base"
   },
   "keywords": [
     "style guide",
