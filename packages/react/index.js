@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   plugins: ["jsx-a11y", "react", "react-hooks"],
-  extends: ["plugin:jsx-a11y/recommended", "plugin:react/recommended"],
+  extends: ["plugin:jsx-a11y/recommended", "plugin:react/recommended", "prettier/react"],
   rules: {
     // Hooks
     "react-hooks/rules-of-hooks": "error",

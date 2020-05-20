@@ -22,7 +22,7 @@ module.exports = {
     },
   ],
   plugins: ["eslint-comments", "import"],
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  extends: ["eslint:recommended", "prettier"],
   rules: {
     // General
     "no-cond-assign": "error",
@@ -33,7 +33,6 @@ module.exports = {
 
     // Best Practices
     "array-callback-return": "error",
-    curly: "off",
     complexity: ["error", 6],
     "default-case": "error",
     "dot-notation": "error",
@@ -111,6 +110,8 @@ module.exports = {
       { blankLine: "always", prev: "*", next: "block-like" },
       { blankLine: "always", prev: "*", next: ["const", "let", "var"] },
       { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
+      { blankLine: "any", prev: "export", next: ["const", "let", "var"] },
+      { blankLine: "any", prev: ["const", "let", "var"], next: "export" },
       { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"] },
     ],
 
@@ -120,7 +121,6 @@ module.exports = {
     // Possible Error
     "no-await-in-loop": "error",
     "no-template-curly-in-string": "error",
-    "no-unexpected-multiline": "error",
 
     // ECMAScript 6
     "no-var": "error",
@@ -129,8 +129,6 @@ module.exports = {
     "prefer-template": "error",
     "prefer-rest-params": "error",
     "no-duplicate-imports": "error",
-    "prefer-arrow-callback": "error",
-    "arrow-body-style": ["error", "as-needed"],
     "prefer-destructuring": ["error", { object: true, array: false }],
 
     // Imports

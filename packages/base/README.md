@@ -49,6 +49,5 @@ module.exports = {
 - babel-eslint
 - eslint-plugin-jest
 - eslint-plugin-import
-- eslint-plugin-prettier
 - eslint-config-prettier
 - eslint-plugin-eslint-comments

@@ -9,6 +9,7 @@ module.exports = {
         warnOnUnsupportedTypeScriptVersion: true,
       },
       plugins: ["@typescript-eslint"],
+      extends: ["prettier/@typescript-eslint"],
       rules: {
         //Checked by Typescript - ts(2378)
         "getter-return": "off",
@@ -39,7 +40,6 @@ module.exports = {
          * If adding a typescript-eslint version of an existing ESLint rule,
          * make sure to disable the ESLint rule here.
          */
-        "@typescript-eslint/indent": "off",
         "@typescript-eslint/camelcase": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/no-non-null-assertion": "off",

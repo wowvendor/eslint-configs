@@ -30,6 +30,9 @@ import * as index from "."; // eslint-disable-line no-unused-vars
   return true;
 })();
 
-export default function() {
+export default function () {
   return true;
 }
+
+const one = 1;
+export const two = one;
