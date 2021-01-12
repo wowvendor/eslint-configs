@@ -1,3 +1,8 @@
+export enum SomeEnum {
+  zero = 0,
+  one = 1,
+}
+
 export type SomeDiff<T, U> = T extends U ? never : T;
 export type SomeProp<D, K = undefined> = K extends string ? { [key in K]: D } : never;
 
