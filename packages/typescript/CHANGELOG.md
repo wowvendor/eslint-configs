@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@2.1.1...@wowvendor/eslint-config-typescript@2.2.0) (2021-01-12)
+
+
+### Features
+
+* **typescript:** transfer no-shadow check to typescript ([05e4ee5](https://github.com/wowvendor/eslint-configs/commit/05e4ee51b15d3462ffea05c6bd539931ae58079e))
+
+
+
+
+
 ## [2.1.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@2.1.0...@wowvendor/eslint-config-typescript@2.1.1) (2020-11-21)
 
 **Note:** Version bump only for package @wowvendor/eslint-config-typescript
