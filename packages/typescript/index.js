@@ -9,7 +9,6 @@ module.exports = {
         warnOnUnsupportedTypeScriptVersion: true,
       },
       plugins: ["@typescript-eslint"],
-      extends: ["prettier/@typescript-eslint"],
       rules: {
         //Checked by Typescript - ts(2378)
         "getter-return": "off",

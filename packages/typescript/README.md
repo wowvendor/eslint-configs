@@ -48,4 +48,3 @@ module.exports = {
 
 - @typescript-eslint/parser
 - @typescript-eslint/eslint-plugin
-- eslint-config-prettier
