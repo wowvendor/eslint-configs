@@ -49,4 +49,3 @@ module.exports = {
 - eslint-plugin-react
 - eslint-plugin-jsx-a11y
 - eslint-plugin-react-hooks
-- eslint-config-prettier
