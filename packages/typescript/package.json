@@ -1,6 +1,6 @@
 {
   "name": "@wowvendor/eslint-config-typescript",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Typescript config for ESLint used in WoWVendor's projects",
   "main": "index.js",
   "files": [

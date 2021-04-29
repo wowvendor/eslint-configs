@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.2.2...@wowvendor/eslint-config-base@2.3.0) (2021-04-29)
+
+
+### Features
+
+* **base:** upgrade deps ([fc520e4](https://github.com/wowvendor/eslint-configs/commit/fc520e4e3b4d1fe3271ab62a886ac2824ca5225e))
+
+
+
+
+
 ## 2.2.2 (2021-02-13)
 
 **Note:** Version bump only for package @wowvendor/eslint-config-base

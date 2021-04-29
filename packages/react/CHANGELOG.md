@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@3.2.2...@wowvendor/eslint-config-react@3.3.0) (2021-04-29)
+
+
+### Features
+
+* **react:** upgrade deps ([e2daff4](https://github.com/wowvendor/eslint-configs/commit/e2daff4886fcf4c4be520228ceecc6058ff94095))
+
+
+
+
+
 ## 3.2.2 (2021-02-13)
 
 **Note:** Version bump only for package @wowvendor/eslint-config-react
