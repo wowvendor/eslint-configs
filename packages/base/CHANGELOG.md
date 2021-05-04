@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.3.0...@wowvendor/eslint-config-base@2.4.0) (2021-05-04)
+
+
+### Features
+
+* upgrade ecmaVersion to 2021 ([7ee4658](https://github.com/wowvendor/eslint-configs/commit/7ee46589424add283039f69a50f0647087ee1ead))
+* **base:** remove babel-eslint parser ([0cbaae7](https://github.com/wowvendor/eslint-configs/commit/0cbaae70d224451d84943eb6e590a2b907dc240a))
+
+
+
+
+
 # [2.3.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.2.2...@wowvendor/eslint-config-base@2.3.0) (2021-04-29)
 
 
