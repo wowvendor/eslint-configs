@@ -46,7 +46,6 @@ module.exports = {
 
 ### Plugins / Modules
 
-- babel-eslint
 - eslint-plugin-jest
 - eslint-plugin-import
 - eslint-config-prettier
