@@ -6,7 +6,7 @@ module.exports = {
     commonjs: true,
   },
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 2021,
     sourceType: "module",
   },
   overrides: [
