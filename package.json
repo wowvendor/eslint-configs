@@ -28,7 +28,10 @@
     "lint"
   ],
   "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
     "@commitlint/cli": "^12.1.4",
+    "@types/eslint": "^7.28.0",
     "@types/jest": "^26.0.24",
     "@types/react": "^17.0.14",
     "@wowvendor/commitlint-config": "^2.0.0",

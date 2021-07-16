@@ -3,6 +3,7 @@
     "jsx": "react",
     "strict": true,
     "target": "es5",
+    "lib": ["esnext"],
     "module": "commonjs",
     "esModuleInterop": true
   }
