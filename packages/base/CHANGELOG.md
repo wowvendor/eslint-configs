@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.4.0...@wowvendor/eslint-config-base@2.5.0) (2021-07-16)
+
+
+### Features
+
+* **base:** off padding-line-between-statements rule in tests ([393b576](https://github.com/wowvendor/eslint-configs/commit/393b576f3bd9ad4a5fc66140d158abd253c47290))
+* upgrade deps ([540dd20](https://github.com/wowvendor/eslint-configs/commit/540dd206d54d42af131beac41bf22614cfebf00a))
+
+
+
+
+
 # [2.4.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.3.0...@wowvendor/eslint-config-base@2.4.0) (2021-05-04)
 
 
