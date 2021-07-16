@@ -18,6 +18,9 @@ module.exports = {
       },
       plugins: ["jest"],
       extends: ["plugin:jest/recommended"],
+      rules: {
+        "padding-line-between-statements": "off",
+      },
     },
   ],
   plugins: ["eslint-comments", "import"],
