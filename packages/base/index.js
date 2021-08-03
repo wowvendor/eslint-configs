@@ -34,6 +34,7 @@ module.exports = {
     "no-dupe-keys": "error",
 
     // Best Practices
+    "linebreak-style": ["error", "unix"],
     "array-callback-return": "error",
     complexity: ["error", 6],
     "default-case": "error",
