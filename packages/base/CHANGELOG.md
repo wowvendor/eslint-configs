@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.6.0...@wowvendor/eslint-config-base@2.6.1) (2021-08-31)
+
+**Note:** Version bump only for package @wowvendor/eslint-config-base
+
+
+
+
+
 # [2.6.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-base@2.5.0...@wowvendor/eslint-config-base@2.6.0) (2021-08-03)
 
 

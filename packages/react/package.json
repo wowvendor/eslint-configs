@@ -1,6 +1,6 @@
 {
   "name": "@wowvendor/eslint-config-react",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "description": "React config for ESLint used in WoWVendor's projects",
   "main": "index.js",
   "files": [
