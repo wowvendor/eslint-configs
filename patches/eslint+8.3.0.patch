@@ -1,0 +1,12 @@
+diff --git a/node_modules/eslint/package.json b/node_modules/eslint/package.json
+index c3dfa1b..1b2aa49 100644
+--- a/node_modules/eslint/package.json
++++ b/node_modules/eslint/package.json
+@@ -10,6 +10,7 @@
+   "exports": {
+     "./package.json": "./package.json",
+     ".": "./lib/api.js",
++    "./lib/unsupported-api": "./lib/unsupported-api.js",
+     "./use-at-your-own-risk": "./lib/unsupported-api.js"
+   },
+   "scripts": {
