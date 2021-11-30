@@ -6,7 +6,7 @@ module.exports = {
       parserOptions: {
         ecmaVersion: 2021,
         sourceType: "module",
-        warnOnUnsupportedTypeScriptVersion: true,
+        warnOnUnsupportedTypeScriptVersion: false,
       },
       plugins: ["@typescript-eslint"],
       rules: {
