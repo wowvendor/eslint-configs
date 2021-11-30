@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@3.5.1...@wowvendor/eslint-config-react@4.0.0) (2021-11-30)
+
+
+### Features
+
+* upgrade deps ([4861d45](https://github.com/wowvendor/eslint-configs/commit/4861d457dc9198e9e76015578333381555291d3b))
+
+
+### BREAKING CHANGES
+
+* minimum possible eslint version changed to 8
+
+
+
+
+
 ## [3.5.1](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-react@3.5.0...@wowvendor/eslint-config-react@3.5.1) (2021-08-31)
 
 **Note:** Version bump only for package @wowvendor/eslint-config-react
