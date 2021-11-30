@@ -22,6 +22,8 @@ jobs:
       - name: Install Dependencies
         if: steps.artifacts-cache.outputs.cache-hit != 'true'
         run: npm ci
+      - name: Patch Packages
+        run: npx patch-package
       - name: ESlint
         run: npm run test:lint
       - name: Jest
