@@ -28,25 +28,25 @@
     "lint"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-typescript": "^7.16.0",
-    "@commitlint/cli": "^15.0.0",
-    "@types/eslint": "^8.2.0",
-    "@types/jest": "^27.0.3",
-    "@types/react": "^17.0.37",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@commitlint/cli": "^16.0.2",
+    "@types/eslint": "^8.2.2",
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.38",
     "@wowvendor/commitlint-config": "^2.0.0",
     "cz-customizable": "^6.3.0",
-    "eslint": "^8.3.0",
+    "eslint": "^8.6.0",
     "glob": "^7.2.0",
     "husky": "^7.0.4",
-    "jest": "^27.4.1",
+    "jest": "^27.4.7",
     "lerna": "^4.0.0",
-    "lint-staged": "^12.1.2",
+    "lint-staged": "^12.1.7",
     "npm-run-all": "^4.1.5",
     "patch-package": "^6.4.7",
     "pinst": "^2.1.6",
-    "prettier": "^2.5.0",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   }
 }

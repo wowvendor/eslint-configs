@@ -1,5 +1,5 @@
 diff --git a/node_modules/eslint/package.json b/node_modules/eslint/package.json
-index c3dfa1b..1b2aa49 100644
+index 948d8d9..a8a8420 100644
 --- a/node_modules/eslint/package.json
 +++ b/node_modules/eslint/package.json
 @@ -10,6 +10,7 @@
