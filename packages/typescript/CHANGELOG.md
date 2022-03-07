@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@3.1.0...@wowvendor/eslint-config-typescript@3.2.0) (2022-03-07)
+
+
+### Features
+
+* upgrade deps ([d830b5b](https://github.com/wowvendor/eslint-configs/commit/d830b5b9eed450724a4c89a28fccfe1f4c498e68))
+
+
+
+
+
 # [3.1.0](https://github.com/wowvendor/eslint-configs/compare/@wowvendor/eslint-config-typescript@3.0.0...@wowvendor/eslint-config-typescript@3.1.0) (2022-01-09)
 
 
