@@ -9,8 +9,6 @@
     "bootstrap": "lerna bootstrap --hoist",
     "publish": "lerna publish from-package",
     "release": "lerna version --conventional-commits",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable",
     "postinstall": "npm run bootstrap && husky install && patch-package"
   },
   "author": "weyheyhey <iweyheyhey@gmail.com>",
@@ -28,25 +26,24 @@
     "lint"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
-    "@commitlint/cli": "^16.0.2",
-    "@types/eslint": "^8.2.2",
-    "@types/jest": "^27.4.0",
-    "@types/react": "^17.0.38",
-    "@wowvendor/commitlint-config": "^2.0.0",
+    "@commitlint/cli": "^16.2.1",
+    "@types/eslint": "^8.4.1",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.39",
+    "@wowvendor/commitlint-config": "^2.1.0",
     "cz-customizable": "^6.3.0",
-    "eslint": "^8.6.0",
+    "eslint": "^8.10.0",
     "glob": "^7.2.0",
     "husky": "^7.0.4",
-    "jest": "^27.4.7",
+    "jest": "^27.5.1",
     "lerna": "^4.0.0",
-    "lint-staged": "^12.1.7",
+    "lint-staged": "^12.3.5",
     "npm-run-all": "^4.1.5",
     "patch-package": "^6.4.7",
-    "pinst": "^2.1.6",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.2"
   }
 }

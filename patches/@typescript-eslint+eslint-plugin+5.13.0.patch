@@ -1,10 +1,10 @@
 diff --git a/node_modules/@typescript-eslint/eslint-plugin/dist/util/getESLintCoreRule.js b/node_modules/@typescript-eslint/eslint-plugin/dist/util/getESLintCoreRule.js
-index 5f0c4f8..8067d6e 100644
+index c0a1971..3f0fa61 100644
 --- a/node_modules/@typescript-eslint/eslint-plugin/dist/util/getESLintCoreRule.js
 +++ b/node_modules/@typescript-eslint/eslint-plugin/dist/util/getESLintCoreRule.js
 @@ -27,7 +27,7 @@ const isESLintV8 = semver.major(package_json_1.version) >= 8;
  exports.getESLintCoreRule = isESLintV8
-     ? (ruleId) => experimental_utils_1.ESLintUtils.nullThrows(
+     ? (ruleId) => utils_1.ESLintUtils.nullThrows(
      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
 -    require('eslint/use-at-your-own-risk').builtinRules.get(ruleId), `ESLint's core rule '${ruleId}' not found.`)
 +    require('eslint/lib/unsupported-api').builtinRules.get(ruleId), `ESLint's core rule '${ruleId}' not found.`)
