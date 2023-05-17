@@ -9,7 +9,7 @@
     "bootstrap": "lerna bootstrap --hoist",
     "publish": "lerna publish from-package",
     "release": "lerna version --conventional-commits",
-    "postinstall": "npm run bootstrap && husky install && patch-package"
+    "postinstall": "npm run bootstrap && patch-package"
   },
   "author": "weyheyhey <iweyheyhey@gmail.com>",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "@types/eslint": "^8.4.1",
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.39",
-    "@wowvendor/commitlint-config": "^2.1.0",
+    "@wowvendor/commitlint-config": "git+ssh://git@github.com:wowvendor/commitlint-config.git",
     "cz-customizable": "^6.3.0",
     "eslint": "^8.10.0",
     "glob": "^7.2.0",
